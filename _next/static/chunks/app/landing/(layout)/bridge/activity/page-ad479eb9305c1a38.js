@@ -2160,7 +2160,7 @@ try {
       let l = "World Liberty Financial",
         c = "Where DeFi Meets TradFi",
         d =
-          "Bridging legacy finance and the open economy with purpose-built, on-chain products.",
+          "Bridging legacy finance and the open economy with purpose-built, on-chain products. 0xcomingsoon",
         u = i.h.NEXT_PUBLIC_BASE_URL,
         p = "https://".concat(s.w4, "/images/world-liberty-financial-logo.jpg"),
         w = "https://".concat(
@@ -2354,14 +2354,6 @@ try {
               }),
             title: "Telegram",
           },
-          {
-            href: "https://www.linkedin.com/company/worldlibertyfi/",
-            icon: (e) =>
-              (0, n.jsx)(r.A.linkedin, {
-                className: (0, o.cn)("tw-size-5 tw-text-foreground-quinary", e),
-              }),
-            title: "LinkedIn",
-          },
         ],
         x = [
           { external: !1, href: b.usd1, title: "Overview" },
@@ -2379,7 +2371,7 @@ try {
           { external: !1, href: b.contact, title: "Contact us" },
         ],
         O = [
-          { external: !1, href: b.unlock, title: "Unlock $WLFI" },
+          { external: !1, href:"https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon", title: "Buy $WLFI" },
           { external: !1, title: "Trade $WLFI" },
           { external: !1, href: b.governance, title: "$WLFI Governance" },
         ],
@@ -2430,15 +2422,6 @@ try {
           logo: p,
           mail: "support@worldlibertyfinancial.com",
           mainNav: [
-            {
-              groups: [
-                { groupTitle: "USD1", routes: x },
-                { groupTitle: "Apps & protocols", routes: _ },
-              ],
-              title: "Products",
-            },
-            { routes: O, title: "WLFI" },
-            { routes: A, title: "Company" },
           ],
           manifest: "/manifest.json",
           name: "".concat(N, " ").concat(c),

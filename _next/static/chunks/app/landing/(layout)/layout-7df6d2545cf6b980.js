@@ -1015,8 +1015,8 @@ try {
           "data-pw": c.l.LANDING.CTA.UNLOCK_WLFI_BUTTON,
           ...r,
           children: (0, a.jsx)(n(), {
-            href: l.C.routes.unlock,
-            children: "Unlock $WLFI",
+            href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon",
+            children: "Buy $WLFI",
           }),
         });
       }
@@ -1422,37 +1422,6 @@ try {
                         (0, a.jsx)("span", {
                           className:
                             "tw-flex tw-h-10 tw-items-center tw-px-3 tw-text-xs tw-font-normal tw-text-tertiary",
-                          "data-pw": b.l.LANDING.MOBILE_NAV.SECTIONS.LEGAL,
-                          children: "Legal",
-                        }),
-                        (0, a.jsx)("div", {
-                          className: "tw-flex tw-flex-col tw-gap-1 tw-px-3",
-                          children: x.C.legal.map((e) => {
-                            let t = n === e.href;
-                            return (0, a.jsx)(
-                              y,
-                              {
-                                "data-active": t,
-                                "data-pw": ""
-                                  .concat(
-                                    b.l.LANDING.MOBILE_NAV.ITEMS.LEGAL_PREFIX,
-                                    "-"
-                                  )
-                                  .concat(
-                                    e.title.toLowerCase().replace(/\s+/g, "-")
-                                  ),
-                                href: e.href,
-                                isActive: t,
-                                onOpenChange: r,
-                                children: e.title,
-                              },
-                              e.href
-                            );
-                          }),
-                        }),
-                        (0, a.jsx)("span", {
-                          className:
-                            "tw-flex tw-h-10 tw-items-center tw-px-3 tw-text-xs tw-font-normal tw-text-tertiary",
                           "data-pw": b.l.LANDING.MOBILE_NAV.SECTIONS.SOCIAL,
                           children: "Social",
                         }),
@@ -1811,15 +1780,15 @@ try {
           "data-pw": b.l.LANDING.CTA.USD1_BUTTON,
           ...r,
           children: (0, a.jsx)(C(), {
-            href: x.C.routes.providers,
-            children: "Get USD1",
+            href: "https://dexscreener.com/ethereum/0xcomingsoon",
+            children: "DexScreener",
           }),
         });
       }
       var k = r(62275),
         D = r(89303),
         O = r(47807);
-      let T = [x.C.routes.usd1, x.C.routes.bridge, x.C.routes.providers],
+      let T = [x.C.routes.usd1, x.C.routes.bridge, "https://dexscreener.com/ethereum/0xcomingsoon"],
         S = [x.C.routes.unlock];
       function _() {
         let { status: e } = (0, D.sA)(),

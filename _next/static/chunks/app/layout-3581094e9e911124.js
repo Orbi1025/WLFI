@@ -766,7 +766,7 @@ try {
       let l = "World Liberty Financial",
         d = "Where DeFi Meets TradFi",
         c =
-          "Bridging legacy finance and the open economy with purpose-built, on-chain products.",
+          "Bridging legacy finance and the open economy with purpose-built, on-chain products. 0xcomingsoon",
         u = a.h.NEXT_PUBLIC_BASE_URL,
         h = "https://".concat(n.w4, "/images/world-liberty-financial-logo.jpg"),
         v = "https://".concat(
@@ -960,14 +960,6 @@ try {
               }),
             title: "Telegram",
           },
-          {
-            href: "https://www.linkedin.com/company/worldlibertyfi/",
-            icon: (e) =>
-              (0, i.jsx)(s.A.linkedin, {
-                className: (0, o.cn)("tw-size-5 tw-text-foreground-quinary", e),
-              }),
-            title: "LinkedIn",
-          },
         ],
         P = [
           { external: !1, href: b.usd1, title: "Overview" },
@@ -985,7 +977,7 @@ try {
           { external: !1, href: b.contact, title: "Contact us" },
         ],
         _ = [
-          { external: !1, href: b.unlock, title: "Unlock $WLFI" },
+          { external: !1, href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon", title: "Buy $WLFI" },
           { external: !1, title: "Trade $WLFI" },
           { external: !1, href: b.governance, title: "$WLFI Governance" },
         ],
@@ -1021,11 +1013,6 @@ try {
           company: T,
           description: c,
           footerNav: [
-            { routes: P, title: "USD1" },
-            { routes: x, title: "Apps & Protocols" },
-            { routes: _, title: "WLFI" },
-            { routes: T, title: "Company" },
-            { routes: I, title: "Legal" },
           ],
           generator: "Next.js",
           goldPaper: w,
@@ -1036,15 +1023,6 @@ try {
           logo: h,
           mail: "support@worldlibertyfinancial.com",
           mainNav: [
-            {
-              groups: [
-                { groupTitle: "USD1", routes: P },
-                { groupTitle: "Apps & protocols", routes: x },
-              ],
-              title: "Products",
-            },
-            { routes: _, title: "WLFI" },
-            { routes: T, title: "Company" },
           ],
           manifest: "/manifest.json",
           name: "".concat(g, " ").concat(d),

@@ -488,8 +488,8 @@ try {
                             className: "tw-w-full md:tw-w-fit",
                             "data-pw": u.l.LANDING.HOMEPAGE.USD1_GET_BUTTON,
                             children: (0, r.jsx)(l.N, {
-                              href: w.C.routes.providers,
-                              children: "Get USD1",
+                              href: "https://dexscreener.com/ethereum/0xcomingsoon",
+                              children: "DexScreener",
                             }),
                           }),
                           (0, r.jsx)(s.Button, {
@@ -498,8 +498,8 @@ try {
                             "data-pw": u.l.LANDING.HOMEPAGE.USD1_SEE_BUTTON,
                             variant: "secondary",
                             children: (0, r.jsx)(l.N, {
-                              href: w.C.routes.usd1,
-                              children: "See USD1",
+                              href: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon",
+                              children: "Dextools",
                             }),
                           }),
                         ],
@@ -731,19 +731,6 @@ try {
               variant: "gray",
             },
             children: [
-              (0, r.jsx)(l.AnimateInView, {
-                className:
-                  "tw-flex tw-flex-col tw-gap-2 tw-w-full md:tw-flex-row md:tw-justify-center tw-z-10",
-                children: (0, r.jsx)(c.Button, {
-                  asChild: !0,
-                  className: "tw-w-full md:tw-w-fit",
-                  "data-pw": u.l.LANDING.HOMEPAGE.JOIN_SECTION_BUTTON,
-                  children: (0, r.jsx)(o(), {
-                    href: w.C.routes.contact,
-                    children: "Contact us",
-                  }),
-                }),
-              }),
               (0, r.jsx)(n.default, {
                 alt: "Join the future of finance",
                 className: "tw-rounded-md tw-border tw-border-border-secondary",
@@ -1052,7 +1039,7 @@ try {
       let l = "World Liberty Financial",
         c = "Where DeFi Meets TradFi",
         d =
-          "Bridging legacy finance and the open economy with purpose-built, on-chain products.",
+          "Bridging legacy finance and the open economy with purpose-built, on-chain products. 0xcomingsoon",
         w = o.h.NEXT_PUBLIC_BASE_URL,
         u = "https://".concat(n.w4, "/images/world-liberty-financial-logo.jpg"),
         A = "https://".concat(
@@ -1246,14 +1233,6 @@ try {
               }),
             title: "Telegram",
           },
-          {
-            href: "https://www.linkedin.com/company/worldlibertyfi/",
-            icon: (t) =>
-              (0, r.jsx)(a.A.linkedin, {
-                className: (0, s.cn)("tw-size-5 tw-text-foreground-quinary", t),
-              }),
-            title: "LinkedIn",
-          },
         ],
         f = [
           { external: !1, href: N.usd1, title: "Overview" },
@@ -1271,7 +1250,7 @@ try {
           { external: !1, href: N.contact, title: "Contact us" },
         ],
         S = [
-          { external: !1, href: N.unlock, title: "Unlock $WLFI" },
+          { external: !1, href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon", title: "Buy $WLFI" },
           { external: !1, title: "Trade $WLFI" },
           { external: !1, href: N.governance, title: "$WLFI Governance" },
         ],
@@ -1322,15 +1301,6 @@ try {
           logo: u,
           mail: "support@worldlibertyfinancial.com",
           mainNav: [
-            {
-              groups: [
-                { groupTitle: "USD1", routes: f },
-                { groupTitle: "Apps & protocols", routes: x },
-              ],
-              title: "Products",
-            },
-            { routes: S, title: "WLFI" },
-            { routes: O, title: "Company" },
           ],
           manifest: "/manifest.json",
           name: "".concat(p, " ").concat(c),
@@ -1403,8 +1373,8 @@ try {
           "data-pw": c.l.LANDING.CTA.UNLOCK_WLFI_BUTTON,
           ...i,
           children: (0, r.jsx)(a(), {
-            href: l.C.routes.unlock,
-            children: "Unlock $WLFI",
+            href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon",
+            children: "Buy $WLFI",
           }),
         });
       }
@@ -1583,37 +1553,6 @@ try {
                 className:
                   "tw-flex tw-flex-col tw-gap-2 tw-w-full md:tw-flex-row md:tw-justify-center",
                 children: [
-                  (0, r.jsx)(d.Button, {
-                    asChild: !0,
-                    className: "tw-w-full md:tw-w-fit",
-                    "data-pw": m.l.LANDING.HOMEPAGE.GOVERNANCE_SECTION_BUTTON,
-                    children: (0, r.jsx)(s(), {
-                      href: g.C.routes.governance,
-                      children: "See $WLFI Governance",
-                    }),
-                  }),
-                  (0, r.jsx)(d.Button, {
-                    asChild: !0,
-                    className: "tw-w-full md:tw-w-fit",
-                    "data-pw": m.l.LANDING.HOMEPAGE.USD1_SEE_BUTTON,
-                    onClick: () =>
-                      t({
-                        eventName: T.zm.EXTERNAL_LINK,
-                        properties: {
-                          funnel: "governance-section",
-                          url: g.C.routes.forum,
-                        },
-                      }),
-                    variant: "secondary",
-                    children: (0, r.jsx)(s(), {
-                      "data-pw":
-                        m.l.LANDING.HOMEPAGE.GOVERNANCE_SECTION_FORUM_LINK,
-                      href: g.C.routes.forum,
-                      rel: "noreferrer noopener",
-                      target: "_blank",
-                      children: "Go to forum",
-                    }),
-                  }),
                 ],
               }),
             }),
