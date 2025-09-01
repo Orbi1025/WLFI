@@ -449,9 +449,7 @@
             let a = localStorage.getItem(b) || c,
               d =
                 g && "system" === a
-                  ? window.matchMedia("(prefers-color-scheme: dark)").matches
-                    ? "dark"
-                    : "light"
+                  ? "dark"
                   : a;
             k(d);
           } catch (a) {}
